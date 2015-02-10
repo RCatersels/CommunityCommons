@@ -103,6 +103,7 @@ The module contains one constant: CommunityCommons.enableReleaseLockEvent. If Tr
 *executeMicroflowInBackground* - Similar to RunMicroflowAsyncInQueue, but accepts one argument as parameter. (new in 2.2)
 
 *executeMicroflowInBatches (Recommended!)* - Performs a batch operation on a large dataset, by invoking the microflow on small subsets of the data, each with its own database transaction.  (new in 2.2)
+
 *recommitInBatches* - Recommits (with events) all items returned by the xpath query. Useful in migration scenerios (new in 2.4)
 
 ### ORM 
